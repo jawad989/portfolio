@@ -1,5 +1,5 @@
-import { Button, styled } from "@mui/material";
-import { HiOutlineDocumentText } from "react-icons/hi2";
+import { Button, styled, Box } from "@mui/material"
+import { HiOutlineDocumentText } from "react-icons/hi2"
 
 const StyledButton = styled(Button)(({ theme }) => ({
   borderRadius: "30px",
@@ -10,17 +10,20 @@ const StyledButton = styled(Button)(({ theme }) => ({
   [theme.breakpoints.down("md")]: {
     width: "75%",
   },
-}));
+}))
 
 const ResumeButton = () => {
   return (
-    <StyledButton
-      href=""
-      variant="outlined"
-      startIcon={<HiOutlineDocumentText />}
+    <Box
+      component='a'
+      href='https://drive.google.com/file/d/1WkGKxW-Eb1gRd4ebhFfPIrIkaXRDcSKz/view?usp=sharing'
+      target='_blank'
+      rel='noopener noreferrer'
     >
-      Resume
-    </StyledButton>
-  );
-};
-export default ResumeButton;
+      <StyledButton variant="outlined" startIcon={<HiOutlineDocumentText />}>
+        Resume
+      </StyledButton>
+    </Box>
+  )
+}
+export default ResumeButton
