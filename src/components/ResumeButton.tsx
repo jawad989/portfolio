@@ -16,7 +16,7 @@ const ResumeButton = () => {
   return (
     <Box
       component='a'
-      href='https://drive.google.com/file/d/1WkGKxW-Eb1gRd4ebhFfPIrIkaXRDcSKz/view?usp=sharing'
+      href='https://drive.google.com/file/d/1t5c1fH4F2A587n2lOUHFp7-bDnz-zVOu/view?usp=sharing'
       target='_blank'
       rel='noopener noreferrer'
     >
