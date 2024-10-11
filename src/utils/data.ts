@@ -11,6 +11,7 @@ import {
   SiNodedotjs,
   SiExpress,
   SiMongodb,
+  SiLaravel
 } from "react-icons/si";
 import { FaAws } from "react-icons/fa";
 
@@ -115,6 +116,12 @@ export const aboutData = {
       id: 6,
       name: "Git",
       icon: SiGit,
+      color: "#F05032",
+    },
+    {
+      id: 7,
+      name: "php/Laravel",
+      icon: SiLaravel,
       color: "#F05032",
     },
   ] as Skill[],
