@@ -211,7 +211,7 @@ export const projectsData = [
   },
   {
     title: "simpple :)",
-    url: "https://app.simpple.tax",
+    url: "https://www.simpple.tax/",
     sourceLink: "https://github.com/deventialimited/GetSimple",
     description:
       "A user-friendly tax calculation app built with ReactJS that simplifies the tax filing process. It features an intuitive interface that guides users through various tax scenarios, ensuring accurate calculations and easy navigation. Simpple helps users stay compliant with tax regulations while maximizing their deductions.",
